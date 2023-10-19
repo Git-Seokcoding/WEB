@@ -1,1 +1,7 @@
 @charset "UTF-8";
+
+/* 1. text - align : ; 글자 수평 정렬 */
+.ta01{text-align: left;}
+.ta02{text-align: center;}
+.ta03{text-align: right;}
+.ta04{text-align: justify;}

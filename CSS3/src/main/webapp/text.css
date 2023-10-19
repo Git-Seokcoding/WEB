@@ -1,7 +1,15 @@
 @charset "UTF-8";
 
 /* 1. text - align : ; 글자 수평 정렬 */
+.ta01, .ta02, .ta03 {
+/* 	A, B, C, ... */
+border: 1px solid;
+
+}
+
+
 .ta01{text-align: left;}
 .ta02{text-align: center;}
 .ta03{text-align: right;}
+/* lipsum.com */
 .ta04{text-align: justify;}

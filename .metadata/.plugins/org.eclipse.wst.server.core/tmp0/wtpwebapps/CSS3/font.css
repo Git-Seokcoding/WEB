@@ -21,8 +21,16 @@ color: #036; }
 .fs08 {font-size: 1.25rem;}
 .fs09 {font-size: 0.75rem;}
 
-
-
+/* 2. font-weight 글자 두께  */
+.fw01{font-weight: 100;}
+.fw02{font-weight: 200;}
+.fw03{font-weight: 300;}
+.fw04{font-weight: 400;}
+.fw05{font-weight: 500;}
+.fw06{font-weight: 600;}
+.fw07{font-weight: 700;}
+.fw08{font-weight: 800;}
+.fw09{font-weight: 900;}
 
 
 

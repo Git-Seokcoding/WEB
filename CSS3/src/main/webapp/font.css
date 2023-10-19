@@ -7,6 +7,11 @@ h1 {background-color: #acf;
 .fs01 {font-size: 16px;}
 .fs02 {font-size: 20px;}
 .fs03 {font-size: 12px;}
-.fs04 {font-size: 12px;}
-.fs05 {font-size: 1.2em}
+
+.fs04 {font-size: 1em;}
+.fs05 {font-size: 1.25em}
 .fs06 {font-size: 0.75em}
+
+.fs07 {font-size: 1em}
+.fs08 {font-size: 1.25rem}
+.fs09 {font-size: 0.75em}

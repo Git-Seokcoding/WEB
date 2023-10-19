@@ -2,6 +2,11 @@
 h1 {background-color: #acf;
 	border-left:12px solid #8ad;
 	padding:0.3em 0.7em;
-	color:#036;
+	color:#036;}
 /* 	1. font-size: ; 글자크기 */
-}
+.fs01 {font-size: 16px;}
+.fs02 {font-size: 20px;}
+.fs03 {font-size: 12px;}
+.fs04 {font-size: 12px;}
+.fs05 {font-size: 1.2em}
+.fs06 {font-size: 0.75em}

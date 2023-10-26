@@ -1,19 +1,131 @@
 @charset "UTF-8";
 
-/* 1. text - align : ; 글자 수평 정렬 */
+ /* 1. text-align 글자 수평 정렬 */
 .ta01, .ta02, .ta03 {
-/* 	A, B, C, ...는 동시에 여러 요소를 불러오는 그룹선택자
-(선택자의 종류는 서로 달라도 됨)*/
-border: 1px solid;
-width: 300px;
+ /* A, B, C, ... 는 동시에 여러 요소를
+  불러오는 그룹선택자
+ (선택자의 종류는 서로 달라도 됨) */	
+ border: 1px solid;
+ width: 300px;	}
+  
+.ta01 {text-align: left; }
+.ta02 {text-align: center;}
+.ta03 {text-align: right;}
+/* https://www.lipsum.com/ */
+.ta04 {text-align: justify;}
+
+
+
+.tc {text-align: center;}
+.tr {text-align: right;}
+
+/*text-decoration: ; 글자의 줄들 */
+.td01 {text-decoration: overline;}
+.td02 {text-decoration: line-through;}
+.td03 {text-decoration: underline;}
+.td04 {text-decoration: none;}
+.td04:hover {
+	/* 상태전택자 A:hover는 A에
+        마우스오버한 상태일 때 적용됨*/
+	background-color:#3dc;
+	text-decoration: underline;
 }
 
+.s01{text-decoration: line-through;
+font-size: 14px;
+color: #666;
+}
+.s03{font-size: 26px;
+font-weight: bold;
+text-decoration: underline;
+color: #06d;
+}
 
-.ta01{text-align: left;}
-.ta02{text-align: center;}
-.ta03{text-align: right;}
-/* lipsum.com */
-.ta04{text-align: justify;}
+.s02{vertical-align: super;
+font-size: 12px;
+background-color: red;
+color : #ff0;
+border-radius: 50%;
+padding:3px;
+border:3px dotted;
+font-family: cursive;
+font-style: italic;
+text-transform: capitalize;
+}
 
-#id{text-align: center;}
-#nm{text-align: right;}
+.ti01{text-indent: 10px;}
+.ti02{text-indent: 1em;}
+.ti03{text-indent: 10%;}
+.ti04{text-indent: -120px}
+.ti04:hover {
+	text-indent: 0;
+	}
+
+/* 4.text-fransform: ; 글자 대소문 바꾸기 */
+.tt01{text-transform: none;}
+.tt02{text-transform: lowercase;}
+.tt03{text-transform: uppercase;}
+.tt04{text-transform: capitalize;}
+
+/* 5. text-shadow 글자의 그림자*/
+
+#sec05>p{
+	font-size: 45px;
+	font-weight: bold;
+    text-align: center;
+    padding:20px;
+}
+.ts01{text-shadow: 2px 3px 4px #333;} 
+.ts02{text-shadow: -2px -3px 4px #333;} 
+.ts03{text-shadow: 2px 0 10px #333;
+color: #fff;} 
+
+.ts03:hover{
+	text-shadow: 0 0 0 #fff;
+	transition:1.4s;
+}
+.ts03-1{
+	text-shadow: 0 10px 0 #366;
+}
+.ts03-2{
+	text-shadow: 0 0 1px #333; color:#fff;
+}
+.ts04, .ts05, .ts06, .ts07{
+	background-color: #000;
+	color: #000;
+}
+
+.ts04{text-shadow: 0 0 12px #3dc;}
+.ts05:hover{
+	text-shadow: 0 0 10px #f34;
+	transition:1.4s;
+}
+
+.ts06{text-shadow: 2px 2px 8px #f4a, -2px -2px 8px #4af;}
+.ts07{text-shadow: 2px 2px 8px #ff0000, -2px -2px 8px #00ff00, -5px -5px 8px #8000ff ;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

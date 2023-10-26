@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body {background-image: url("img/butterfly.jpg"), url("img/mayweed.jpg");
+body {background-image: url("../img/연꽃.jpg"), url("../img/연꽃2.jpg");
 background-repeat:  no-repeat, repeat-x; 
 /* background-size: cover; */
 background-position: 50% 0, 0 100%;

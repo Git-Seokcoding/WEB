@@ -104,7 +104,9 @@ color: #fff;}
 .ts06{text-shadow: 2px 2px 8px #f4a, -2px -2px 8px #4af;}
 .ts07{text-shadow: 2px 2px 8px #ff0000, -2px -2px 8px #00ff00, -5px -5px 8px #8000ff ;}
 
-
+#sec05>div{
+	white-space: pre;
+}
 
 
 

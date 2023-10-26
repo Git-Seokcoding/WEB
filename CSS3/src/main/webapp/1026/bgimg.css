@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {background-image: url("img/butterfly.jpg"), url("img/mayweed.jpg");
+background-repeat:  no-repeat, repeat-x; 
+/* background-size: cover; */
+background-position: 50% 0, 0 100%;
+background-attachment: scroll, fixed;}
+
+#bg {background-color: #ccc; 
+ border-radius: 10px;
+ margin:5em 2em;
+ padding: 2.5em;}
+
+#hn-bg {border-bottom:5px solid;
+background-color: #acf;
+margin-bottom:3em;
+padding:0.5em;
+color:#036;}
+
+
+li {font-size: 18px;
+line-height: 1.8; }
+
+ul>li {margin-bottom: 2em;
+ font-size: 20px;
+ font-weight: bold;}
+
+ul>li>ol {
+ font-weight: normal;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

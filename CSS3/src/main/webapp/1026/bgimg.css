@@ -1,12 +1,12 @@
 @charset "UTF-8";
-
+ 
 body {background-image: url("../img/연꽃.jpg"), url("../img/연꽃2.jpg");
 background-repeat:  no-repeat, repeat-x; 
 /* background-size: cover; */
 background-position: 50% 0, 0 100%;
 background-attachment: scroll, fixed;}
 
-#bg {background-color: #ccc; 
+.bg {background-color: #ccc; 
  border-radius: 10px;
  margin:5em 2em;
  padding: 2.5em;}
@@ -28,11 +28,15 @@ ul>li {margin-bottom: 2em;
 ul>li>ol {
  font-weight: normal;}
 
+#sec01 {
+	background-color: #fff;
+}
 
 
 
-
-
+.ba01, .ba02, .ba03 {
+	
+}
 
 
 

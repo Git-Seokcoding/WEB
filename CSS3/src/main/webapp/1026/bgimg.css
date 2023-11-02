@@ -34,11 +34,30 @@ ul>li>ol {
 
 
 
-.ba01, .ba02, .ba03 {
-	
+/* .ba01, .ba02, .ba03 { } */
+#sec01>p{
+	border : 1px solid #d00;
+	width : 30%;
+	height : 400px;
+	display: inline-block;
+	margin-right: 1.5%;
+	padding : 0.5em;
+	overflow : auto;
+	background-image: url("../img/dog.jpg");
+	background-size: cover;
+	background-position: center top;
 }
 
 
+.ba01{
+	background-attachment: scroll;
+}
+.ba02{
+	background-attachment: fixed;
+}
+.ba03{
+	background-attachment: local;
+}
 
 
 

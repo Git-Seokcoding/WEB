@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
  /* 1. margin의 방향별 지정법 */
-#sec01>div {/* border: 1px solid #040; */}
+#sec01>div {border: 1px solid #040;}
 
 .mt {margin-top: 50px;}
 .mr {margin-right:50px; 
@@ -9,17 +9,36 @@ text-align: right;}
 .mb {margin-bottom:50px; }
 .ml {margin-left:50px; }
 
-#sec01:hover>div {margin: 0; }
+/* #sec01:hover>div {margin: 0; } */
 
  /* 2. margin의 값 갯수별 지정법 */
+ 
+ #sec02>div { border:1px solid #a8a;}
+.mn01{margin: 2em;}
+.mn02{margin: 2em 4em;}
+.mn03{margin: 2em 4em 1em;}
+/* 위 아래 부딪힐때 큰값으로 처리 */
+.mn04{margin: 3em 20% 7em 10%;} 
+         /*  위 오른쪽 아래 왼쪽 */
+         
+.center{background-color: #a80;
+text-align: center;
+width:30%; height: 30px;
+/* margin-left: auto; */
+/* margin-right: auto; */
+margin:2em auto;  }
 
+#sec03>* :not(h2){border:1px solid #8aa;
+margin : 50px;}
 
+label{width:120px;
+display:inline-block;
+margin-bottom: 12px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+color:#333;}
 
-
-
-
-
-
-
-
-
+input{width:200px;}
+#sbm{margin-left: 125px;
+margin-top: 20px;}

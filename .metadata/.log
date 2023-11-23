@@ -6374,3 +6374,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.egit.ui 4 4 2023-11-23 15:28:13.745
 !MESSAGE Show Push Result...
+
+!ENTRY org.eclipse.egit.ui 4 4 2023-11-23 15:28:29.177
+!MESSAGE Show Push Result...

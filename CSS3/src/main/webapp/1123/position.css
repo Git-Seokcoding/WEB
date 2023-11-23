@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* 11/23 position을 설정했다고 바로 적용되는 것이 아니라 거리를 지정해야 적용 된다! */
+
+section>div {border:1px solid;}
+section>h2>i{font-size: 16px;
+font-style: normal; color: #830;}
+
+/* 1. position:static; 기본 설정*/
+	#sec01>div {position: static;
+	left : 1000px;}
+
+/* 2. position:relative; 현재 위치 기준으로 ~ */
+	#sec02>div {width:200px;}
+	
+	.re01{position:relative;
+	left : 1000px;}
+	/* 왼쪽으로 1000px이 아니라 왼쪽으로부터 시작해서 1000px 떨어지 곳으로 이동 */
+	
+	.re02{position:relative;
+	right: 1000px;}
+	/* 브라우저 밖으로 빠져 나가서 안보임 */
+	
+	.re03{position:relative;
+	top: 250px;}
+	
+	.re04{position:relative;
+	bottom: 250px;}
+	
+	.re05{position:relative;
+	bottom: 5em; left:30em;}
+	
+	.re06{position:relative;
+	top:200px; left:400px;}
+	
+	#sec02:hover>div {
+		position:static;
+	}
+
+/* 3. position:absolute; 상위요소를 기준으로~ */
+	/* (필수)상위 요소의 포시션 속성을 relative 로 변경 해야 자리가 잡힘 */
+	#sec03{position:relative;
+	height:500px;}
+	
+	#sec03>div{width:200px;
+	height:50px;}
+	
+	.ab01{position:absolute;
+	left:1000px;}
+	
+	.ab02{position:absolute;
+	right:1000px;}
+	
+	.ab03{position:absolute;
+	top:20px;}
+	
+	.ab04{position:absolute;
+	bottom:100px;}
+
+	.ab05{position:absolute;
+	right:0; bottom:0;}
+
+	.ab06{position:absolute;
+	left:50%; bottom:50%;}
+	
+	#sec03>aside {background-color: #000;
+	width:800px; height:400px; top:500px; 
+	position:relative;}
+
+	#sec03>aside>div{border:1px solid;
+	width:100px; height:120px; color:#fff;
+	border-radius: 14px;
+	position:absolute;
+	box-sizing:border-box; /* 요소의 크기 계산할때 테두리까지 계산해라! */
+	padding : 6px;
+	text-transform: capitalize;
+	}
+	
+	.cd01{background-color: #a50; top:100px; left:200px;
+	z-index: 50; /* 맨앞으로 나오는 순서 값 크면 클수록 앞으로 올라옴*/}
+/* 	원래는 자동 먼저 만든 태그는 값이 작고 나중에 만든 태그는 값이 올라가서 나중에 만든 태그가 맨 위로옴 */
+/* ex) 항상 위 z-index:99999; 항상 아래 z-index:-9999999; */
+	.cd02{background-color: #0a0; top:120px; left:250px;
+	z-index: 49;}
+	.cd03{background-color: #a05; top:140px; left:300px;
+	z-index: 48;}
+	.cd04{background-color: #05a; top:160px; left:350px;
+	z-index: 47;}
+
+	#sec03>aside:hover>.cd02{top:100px; left:300px; transition:1s;}
+	#sec03>aside:hover>.cd03{top:100px; left:400px; transition:1s;}
+	#sec03>aside:hover>.cd04{top:100px; left:500px; transition:1s;}
+	
+/* 4. position:fixed; 브라우저를 기준으로 고정 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

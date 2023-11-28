@@ -40,6 +40,7 @@ font-style: normal; color: #830;}
 	/* (필수)상위 요소의 포시션 속성을 relative 로 변경 해야 자리가 잡힘 */
 	#sec03{position:relative;
 	height:500px;}
+	s
 	
 	#sec03>div{width:200px;
 	height:50px;}

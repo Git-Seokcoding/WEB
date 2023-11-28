@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+ /* nav */
+nav li {background-color:#a00;
+display: inline-block /* 메뉴들을 나란히 */;
+width: 150px; height: 30px;
+border-radius:10px 0 0 0 ;
+text-align: center;  
+line-height: 30px /* 행간=영역의 높이값
+수직정렬 가운데 */; }
+
+nav li:hover {background-color:#0a0;
+ transition:1.2s;}
+
+nav a {/* border: 1px solid #0d0; */
+width: 150px; height: 30px;
+display:block;
+ text-decoration: none;
+ text-transform: capitalize; } 
+
+/*  [주의]
+ 1.평상시와  2.동작시의 상하 순서가 바뀌면 안됨 
+ 1.평상시 없이  2.동작시 변화만 안됨   */
+ 
+nav a:link, nav a:visited {
+ /* 1. 링크의 평상시 상태 (초기, 방문한)  */	
+	color: #fff;}
+nav a:hover, nav a:active {
+ /* 2. 링크의 동작시 상태 (오버, 활성화) */
+  color: #030;}
+
+
+
+
+
+
+
+  /* 1. display:block; */  
+.in {border: 1px solid #00d;
+width: 150px; height: 50px; 
+margin: 30px;
+display: block;}
+
+#sec01:hover>.in {display: inline; }
+
+  /* 2. display:inline; */
+.bl {border: 1px solid #d00;
+ width: 150px; height: 50px;
+ margin: 30px; 
+ display: inline; }
+
+#sec02:hover>.bl {display: block;}
+
+
+  /* 3. display:inline-block; */
+#sec03>*:not(h2) { /* 
+   전체선택자 *는 모든 요소를 지정
+   부정 선택자 A:not(B)는 B를 제외한 A를 지정
+ */ 	border: 1px solid #0d0;
+ width: 150px; height: 50px; 
+ margin: 30px;
+ display: inline-block; }
+
+ 
+#sec04, #sec05 {display: inline-block;
+width: 42%;
+vertical-align:top /* 
+inline요소들끼리의 수직정렬~위로 */;  }
+
+ /* 4. display:none; */
+#sec04>h2>i {background-color:#fa0;
+	font-size: 12px;
+ font-style: normal;
+ font-weight: normal;  }
+ 
+#sec04:hover>h2>i {display: none;}
+ 
+#sec04>*:not(h2) {border: 1px solid #880;}
+ 
+ .dn01 {background-color: #aa0;
+ display: none;}
+ 
+ .dn02 {background-color: #a0a;
+ display: none;}  
+ 
+#sec04:hover>.dn01 {display: inline;} 
+
+#sec04>label:hover+.dn02 {
+ /* A+B 형제관계인 A의 바로 뒤에 있는 B만 지정
+    A~B 형제관계인 A의 뒤에 있는 B 모두 지정  */
+ display: block; }
+
+#sec04>span:hover~.dn02 {display: block;}
+
+
+
+ /* 5. visibility:hidden; */ 
+#sec05>*:not(h2) {border: 1px solid;} 
+ 
+.vs01 {background-color: #0aa;
+visibility: hidden;}
+
+.vs02 {background-color: #aa0;
+ visibility: hidden;}
+ 
+#sec05:hover>.vs01 {visibility: visible;}
+
+#sec05>label:hover+.vs02 {visibility: visible; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

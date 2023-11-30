@@ -93,10 +93,15 @@ font-style: normal; color: #830;}
 	
 /* 4. position:fixed; 브라우저를 기준으로 고정 */
 
+#sec04{/* position: fixed; */
+	width: 150px;
+}
 
+#sec04 ul{list-style:none;}
 
-
-
+#sec04 ul a:link, #sec04 ul a:visited{
+	color:#fff
+}
 
 
 

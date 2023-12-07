@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* 반응형은 모바일 퍼스트 원칙 */
+body{background-color: #c0c0c0;
+	color: #004;
+}
+
+h1{ color: #8000ff;}
+
+.clear{clear:both;}
+
+@media screen and (min-width:760px) {
+	body{background-color: #c0c0c0;
+		color: #008000;
+	}
+	h1{ color: #ff0000;}
+	#dv01,#dv02{border: 1px solid #ff0000;
+	float: left;
+	width:45%;
+	margin-lefr:2%;}
+}
+
+@media screen and (min-width:1000px) {
+	body{background-color: #400080;
+		color: #ff80ff;
+	}
+	h1{ color: #ff0080;}
+	
+}
+
+@media only print {
+	body{background-color: #ffffff;
+		color: #000;
+	}
+	h1{ color: #000;}
+}

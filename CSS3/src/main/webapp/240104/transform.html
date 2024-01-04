@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>transform</title>
+<link href="../style.css" rel="stylesheet">
+<link href="transform.css" rel="stylesheet">
+</head>
+<body>
+<h1>transform - 변형</h1>
+
+<h2>변형함수</h2>
+<ul>
+ <li>transform:translate(); 위치 변형</li>
+ <li>transform:scale(); 크기 변형</li>
+ <li>transform:rotate(); 회전 변형</li>
+ <li>transform:skew(); 기울기 변형</li>
+</ul>
+
+<section id="sec01">
+ <h2>1. transform:translate(Xn,Yn); 위치 변형</h2>
+
+ <div class="tr01">transform:translateX(1200px);</div>
+ <div class="tr02">transform:translateY(100px);</div>
+ <div class="tr03">transform:translateX(-500px);</div>
+ <div class="tr04">transform:translateY(-200px);</div>
+ <div class="tr05">transform:translate(1000px,-200px);</div>
+ <div class="tr06">transform:translate(100%,100%);</div>
+
+ <aside class="cnt">
+  [center] <br>
+  1. position: absolute;<br>
+  (상위요소는 position: relative;)<br>
+  left: 50%;   top:50%;<br>
+   --- 상위요소의 정중앙에서 시작<br>
+  2. transform:translate(-50%,-50%);<br>
+   --- 본인의 크기 절반만큼 앞,위로 이동
+ </aside>
+</section>
+
+<section id="sec02">
+ <h2>2. transform:scale(); 크기 변형</h2>
+
+ <div class="sc01">transform:scale(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+ <div class="sc02">transform:scale(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+ <div class="sc03">transform:scale(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+ <div class="sc04">transform:scale(); <br>
+  <img src="../img/pineapple.jpg">
+ </div> 
+ <div class="sc05">transform:scale(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+ <div class="sc06">transform:scale(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+</section>
+
+<section id="sec03">
+ <h2>3. transform:rotate(); 회전 변형</h2>
+ <div class="ro01">transform:rotate(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+ <div class="ro02">transform:rotate(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+ <div class="ro03">transform:rotate(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+ <div class="ro04">transform:rotate(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+ <div class="ro05">transform:rotate(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+ <div class="ro06">transform:rotate(); <br>
+  <img src="../img/pineapple.jpg">
+ </div>
+</section>
+
+<section id="sec04">
+	<h2>4. transform:skew(); 기울기 변형</h2>
+	 <div class="sk01">transform:skew(); <br>
+	  <img src="../img/pineapple.jpg">
+	 </div>
+	 <div class="sk02">transform:skew(); <br>
+	  <img src="../img/pineapple.jpg">
+	 </div>
+	 <div class="sk03">transform:skew(); <br>
+	  <img src="../img/pineapple.jpg">
+	 </div>
+	 <div class="sk04">transform:skew(); <br>
+	  <img src="../img/pineapple.jpg">
+	 </div>
+	 <div class="sk05">transform:skew(); <br>
+	  <img src="../img/pineapple.jpg">
+	 </div>
+	 <div class="sk06">transform:skew(); <br>
+	  <img src="../img/pineapple.jpg">
+	 </div>
+</section>
+
+<section id="sec05">
+	<h2>5. transform-origin(); 기울기 변형</h2>
+	 <div class="to01">transform:skew(); <br>
+	  <img src="../img/pineapple.jpg">
+	 </div>
+	 <div class="to02">transform:skew(); <br>
+	  <img src="../img/pineapple.jpg">
+	 </div>
+	 <div class="to03">transform:skew(); <br>
+	  <img src="../img/pineapple.jpg">
+	 </div>
+</section>
+
+<section id="sec05">
+	<h2>5. transform-origin(); 기울기 변형</h2>
+	 <div class="to01">transform:skew(); <br>
+	  <img src="../img/pineapple.jpg">
+	 </div>
+</section>
+<section id="sec06">
+	<h2>6. 돌려돌려 돌림판</h2>
+	 <div class="dol01">transform:skew(); <br>
+	  <img src="../img/돌림판.png">
+	 </div>
+</section>
+
+
+
+
+</body>
+</html>

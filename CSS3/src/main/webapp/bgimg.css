@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {background-image: url("img/butterfly.jpg"), url("img/mayweed.jpg");
+background-repeat:  no-repeat, repeat-x; 
+/* background-size: cover; */
+background-position: 50% 0, 0 100%;
+background-attachment: scroll, fixed;}
+
+.bg {background-color: #ccc; 
+ border-radius: 10px;
+ margin:5em 2em;
+ padding: 2.5em;}
+
+#hn-bg {border-bottom:5px solid;
+background-color: #acf;
+margin-bottom:3em;
+padding:0.5em;
+color:#036;}
+
+
+li {font-size: 18px;
+line-height: 1.8; }
+
+ul>li {margin-bottom: 2em;
+ font-size: 20px;
+ font-weight: bold;}
+
+ul>li>ol {
+ font-weight: normal;}
+
+
+#sec01 {background-color: #fff;}
+
+#sec01>p {border: 1px solid #d00;
+ width: 30%; height: 400px;
+ display: inline-block;	
+ margin-right: 1.5%;
+ padding:0.5em;
+ overflow: auto;
+ background-image: url("img/basile.jpg");
+ background-size: cover;
+ background-position: center top; }
+
+.ba01 {background-attachment: scroll;}
+.ba02 {background-attachment: fixed;}
+.ba03 {background-attachment: local;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

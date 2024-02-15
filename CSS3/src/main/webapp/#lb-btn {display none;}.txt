@@ -1,0 +1,8 @@
+#lb-btn {display: none;}
+
+#lb-btn:checked+label {
+	background-color: #c35; }
+
+=================
+<input type="checkbox" id="lb-btn">
+<label for="lb-btn">label btn</label>

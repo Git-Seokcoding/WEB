@@ -14,18 +14,26 @@
 
 #text-box {
  padding: 2em;	
- background-image: url("img/basile.jpg");
+ background-image: url("../img/apple.jpg");
  background-repeat: no-repeat;
  background-size: cover; 
  background-position: center center;
 }
 
+.bgch{
+	animation:bgimg 20s infinite;
+}
+
 @keyframes bgimg {
-	0% {background-image: url("img/basile.jpg");}	
-  25% {background-image: url("img/butterfly.jpg");}  
-  50% {background-image: url("img/cat.jpg");}
-  75% {background-image: url("img/mayweed.jpg");}
- 100% {background-image: url("img/war.jpg");}
+	0% {background-image: url("../img/apple.jpg");}	
+  20% {background-image: url("../img/apple.jpg");}	
+  25% {background-image: url("../img/dog.jpg");}  
+  45% {background-image: url("../img/dog.jpg");}  
+  50% {background-image: url("../img/flower.jpg");}
+  70% {background-image: url("../img/flower.jpg");}
+  75% {background-image: url("../img/golddog.jpg");}
+  95% {background-image: url("../img/golddog.jpg");}
+1000% {background-image: url("../img/apple.jpg");}	
 	
 }
 

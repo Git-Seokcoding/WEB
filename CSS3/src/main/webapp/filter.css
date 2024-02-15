@@ -1,0 +1,28 @@
+@charset "UTF-8";
+section {overflow: hidden;}
+
+img {
+  width: 30%;
+  height: auto;
+  float: left; 
+  margin: 1%;
+}
+.ori {
+ font-size: 1.7em;
+ font-weight: bold;
+ color: #fff;
+ text-shadow: 0 0 6px #333;
+ text-indent:1em; 
+ position: relative;
+ top:	50px;
+}
+.blur {filter: blur(4px);}
+.brightness {filter: brightness(0.30);}
+.contrast {filter: contrast(180%);}
+.grayscale {filter: grayscale(100%);}
+.huerotate {filter: hue-rotate(180deg);}
+.invert {filter: invert(100%);}
+.opacity {filter: opacity(50%);}
+.saturate {filter: saturate(7);}
+.sepia {filter: sepia(100%);}
+.shadow {filter: drop-shadow(8px 8px 10px green);}

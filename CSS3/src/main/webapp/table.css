@@ -1,0 +1,73 @@
+@charset "UTF-8";
+ body>div {border: 1px solid red; }
+
+#box01, #box02 {
+display: inline-block;
+margin-right: 40px;}
+
+#box03, #box04 {float: left;
+margin-left: 40px;
+margin-top: 50px;}
+
+table, th, td {border: 1px solid; }
+
+ /* 1. stripe table */
+#tab01 {width: 600px;
+height: 500px;} 
+
+#tab01 th {background-color: #0a9;
+/* height:50px; */
+padding:12px 10px;
+text-align:left; 
+ color: #fff;}
+ 
+#tab01 tr:nth-of-type(2n-1) {
+ background-color: #ccc;}
+
+#tab01 tr:hover {
+ background-color: #0fc;
+ cursor: pointer;}
+
+#tab01 tr:nth-of-type(6)>td:nth-of-type(3) {
+	color: #f00;
+	font-weight: bold;}
+
+  /* 2.table-layout: fixed; */
+#tab02 {width: 900px; height: 600px; 
+table-layout: fixed; }
+
+#tab02 tr:nth-of-type(3) {
+	height: 80px; 
+	color: #900; 
+	vertical-align: top;}
+
+
+ /* 3. border-spacing:n (Xn Yn) 
+  셀의 바깥 여백 조정(
+  값이 두개면 좌우가 먼저) */
+ 
+#tab03 {border-spacing: 20px 10px ;}
+
+ /* 4. border-collapse: collapse;
+ 셀들을 붙이기(이중테두리도 제거 됨) */
+#tab04 {border-collapse: collapse; } 
+
+#tab04 tr:nth-of-type(2n) {
+	background-color: #4cf;}
+
+#tab05 {clear:both; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,22 @@
 @charset "UTF-8";
 
+/*   --- fonts.google.com ---
+font-family: "Noto Sans Korean", sans-serif;	
+font-family: "Bagel Fat One", fantasy;
+font-family: "Nanum Myeongjo", serif;
+ */
+body {
+ font-family: "Noto Sans Korean", sans-serif;}
+
 h1 {background-color: #acf;
 border-left: 12px solid #8ad;
 padding: 0.3em 0.7em;
-color: #036; }
+color: #036;  
+font-family: "Nanum Myeongjo", serif;}
  /* ctrl+shift+/ */
+ 
+h2 {font-family: "Bagel Fat One", fantasy;
+font-weight: normal; } 
  
  /* 1.font-size 글자 크기 */
 #sec01 {font-size: 12px;} 
@@ -13,39 +25,50 @@ color: #036; }
 .fs02 {font-size: 20px;}
 .fs03 {font-size: 12px;}
 
-.fs04 {font-size: 1em;}
+.fs04 {font-size: 1em
+/* 배수단위(상위요소의 영향을 받음) */;}
 .fs05 {font-size: 1.25em;}
 .fs06 {font-size: 0.75em;}
 
-.fs07 {font-size: 1rem;}
+.fs07 {font-size: 1rem
+/* 배수단위(최상위요소의 영향을 받음) */;}
 .fs08 {font-size: 1.25rem;}
 .fs09 {font-size: 0.75rem;}
 
-/* 2. font-weight 글자 두께  */
-.fw01{font-weight: 100;}
-.fw02{font-weight: 200;}
-.fw03{font-weight: 300;}
-.fw04{font-weight: 400;}
-.fw05{font-weight: 500;}
-.fw06{font-weight: 600;}
-.fw07{font-weight: 700;}
-.fw08{font-weight: 800;}
-.fw09{font-weight: 900;}
-.fw10{font-weight: bold;}
-.fw11{font-weight: normal; 
-       color : #00e;}
-/* 3. font-style : ; 글자 기울기   */
-.fst01{font-style:italic;}
-.fst02{font-style:oblique;}
-.fst03{font-style:normal;}
+  /* 2. font-weight 글자 두께 */
+.fw01 {font-weight: 100;}
+.fw02 {font-weight: 200;}
+.fw03 {font-weight: 300;}
+.fw04 {font-weight: 400;}
+.fw05 {font-weight: 500;}
+.fw06 {font-weight: 600;}
+.fw07 {font-weight: 700;}
+.fw08 {font-weight: 800;}
+.fw09 {font-weight: 900;}
+.fw10 {font-weight: bold;
+color: #068;}
+.fw11 {font-weight: normal;
+ color: #00e;}
 
-/* 4. font-family : ; 글꼴(서체) */
-.ffm01{font-family :"Georgia","Garamond","Times New Roman",serif;}
-.ffm02{font-family : "Verdana", "Arial","Helvetica",sans-serif;}
-.ffm02{font-family : "Courier New", "Lucida Console", "Monaco",monospace;}
-.ffm04{font-family: 'Black Han Sans', sans-serif;}
-.ffm05{font-family: 'Nanum Myeongjo', serif;}
-.ffm06{font-family: 'Noto Sans KR', sans-serif;}
+ /* 3.font-style  글자 기울기 */
+.fst01 {font-style: italic;}
+.fst02 {font-style: oblique;}
+.fst03 {font-style: normal;}
+
+
+
+  /* 4. font-family: ; 글꼴 */
+.ffm01 {font-family:
+"Georgia", "Garamond", "Times New Roman", serif; }
+.ffm02 {font-family: 
+"Verdana", "Arial", "Helvetica", sans-serif;}
+.ffm03 {font-family: 
+"Lucida Handwriting", "Brush Script MT", cursive;}
+
+
+
+
+
 
 
 

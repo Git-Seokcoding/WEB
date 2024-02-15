@@ -1,0 +1,199 @@
+@charset "UTF-8";
+ /* mobile first */
+ 
+ /* 
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Single Day', cursive;
+  */
+ 
+* {margin: 0; padding: 0;}
+
+html {scroll-behavior:smooth
+ /* 부드러운 스크롤이동 */;}
+ 
+body {font-family:'Noto Sans KR', sans-serif; ;}
+ 
+a {text-decoration: none;}  
+nav a:link, nav a:visited {
+	color: #fff;}  
+nav a:hover, nav a:active {
+	color: #ff0;} 
+ 
+h2 {font-size: 1.8em;
+font-family: 'Single Day', cursive !important;}
+h3 {font-size: 1.3em;}
+p {font-size: 1.3em;
+ line-height: 2.5;}
+li {font-size: 1em;
+ line-height: 2;}
+ 
+#wrap {border: 1px solid red;
+margin: 0 auto;} 
+
+header {background-image: url("img/header.jpg");
+background-size:cover;
+background-position: center center;
+height: 300px;}
+
+nav {background-color: #000;
+height: 50px;}
+
+nav ul {/*  */
+	list-style: none;
+	padding: 10px;}
+
+nav li {/*  */
+display: inline-block;
+margin:5px 15px;
+font-family: ;
+font-size: 0.8em; }
+
+section {/* border: 1px solid #0fa; */
+padding:15px 5% 10px 5%;
+position: relative;}
+
+section:nth-of-type(2n) {
+	background-color: #eee;}
+
+.pg-title {
+position: absolute;
+top:20px; left: 0;
+padding: 30px 50px;}
+
+.content {
+ width: 90%;
+ margin: 80px auto 10px;
+ padding: 20px;
+ box-sizing: border-box; }
+
+.photo {display: none;}
+
+.text>h3 {margin-bottom: 20px;
+color: #0094ff;}
+
+footer {background-color: #000;
+height: 100px;
+color: #fff;}
+
+footer>p {text-align: center;
+line-height:100px; 	
+font-size: 1.8em;
+font-family: 'Single Day', cursive;
+text-transform: capitalize;
+}
+
+.icn {color: #520;
+font-size:22px !important; }
+
+.text>button {border:none; 
+background-color:#042;
+padding: 8px;
+border-radius: 24px 6px ;
+color: #fff;}
+.text>button:hover {
+background-color: #884;	
+color:#042;
+}
+
+
+
+   /* tablet - 768px */
+@media screen and (min-width:768px) {
+	
+ header {height: 400px;}	
+ 
+ #intro, #map {
+  border:1px dotted #ccc;
+  float: left;
+  width: 50%;  height:400px;
+  box-sizing: border-box
+ /* 요소의 크기 계산시 테두리까지 포함하기
+  (border나 padding이 추가되어도
+   실제 차지하는 영역이 늘어나지 않음) */;
+ }	
+ 
+.clear {clear: both; }
+
+/*  #choice {clear: both; }	 */
+	
+}
+
+ 
+  /* pc - 992px 이상 */
+@media screen and (min-width:992px) {
+	
+ #wrap {width: 995px;}
+ 
+ header {height: 500px;}	
+	
+ section {height: 420px !important;}	
+	
+ #intro, #map {width:100%; }	
+	
+	
+.photo {border: 1px solid #a0f;
+	display: block;
+	float: left;
+	width: 42%;
+	margin-right: 5%;}	
+
+.photo>img {width: 100%;
+ max-width:320px
+ /* 원본이미지보다 더 커지지 않게 설정 */;
+ height: auto;}
+	
+.text {border: 1px solid #0fa;
+	float: left;
+	width: 42%;}	
+	
+#choice	.photo, #choice	.text {
+	float: right; }
+	 
+#choice	.photo {margin-left: 5%;
+  border-radius: 50%; 
+  overflow: hidden; }	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

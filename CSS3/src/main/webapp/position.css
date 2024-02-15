@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+html {scroll-behavior:smooth;
+ /* 부드러운 스크롤 이동 */}
+
+section>div {border: 1px solid;}
+
+section>h2>i {font-size: 16px;
+ font-style: normal;
+ color: #830; }
+
+ /* 1. position:static; */
+#sec01>div {position: static;
+left: 1000px;}
+
+ /* 2.position:relative; */
+#sec02>div {width: 200px;}
+
+.re01 {position: relative;
+left: 1000px;}
+.re02 {position: relative;
+right: 1000px;}
+.re03 {position: relative;
+ top: 250px;} 
+.re04 {position: relative;
+ bottom: 250px;} 
+.re05 {position: relative;
+left: 30em; bottom: 5em;  } 
+.re06 {position: relative;
+ left: 800px; top: 120px;}
+ 
+#sec02:hover>div {position: static;}
+ 
+ 
+ /* 3. position:absolute; */
+#sec03 {position: relative;
+height: 500px;}
+ 
+#sec03>div {width: 200px;
+height: 30px;} 
+
+.ab01 {position: absolute;
+left: 1000px;}
+
+.ab02 {position: absolute;
+right: 1000px;}
+ 
+.ab03 {position: absolute;
+top:20px;} 
+
+.ab04 {position: absolute;
+bottom: 100px;}
+
+
+.ab05 {position: absolute;
+right: 0; bottom: 0;} 
+
+.ab06 {position: absolute;
+ left: 50%; top:50%;}
+
+#sec03>aside {background-color: #000;
+width: 800px; height: 400px; 
+margin-top: 50px;
+position:relative; }
+ 
+#sec03>aside>div {border: 1px solid;
+width: 100px; height: 120px;
+box-sizing:border-box; 
+border-radius:14px;
+padding:6px;
+color: #fff; 
+position: absolute;
+text-transform: capitalize;}
+ 
+.cd01 {background-color: #a50;
+ top:100px; left: 200px;
+ z-index: 50; } 
+.cd02 {background-color: #0a5;
+ top:110px; left: 240px;
+ z-index: 49; }
+.cd03 {background-color: #a05;
+ top:120px; left: 280px;
+ z-index: 48;} 
+.cd04 {background-color: #05a;
+ top:130px; left: 320px;
+ z-index: 49;}
+ 
+#sec03>aside:hover>.cd02 {
+ top:100px; left: 300px;	
+ transition:1s;} 
+#sec03>aside:hover>.cd03 {
+ top:100px; left: 400px;		
+ transition:1s;}
+#sec03>aside:hover>.cd04 {
+ top:100px; left: 500px;	
+ transition:1s;	}
+ 
+ 
+ /* 4. position: fixed; */
+#sec04>nav {
+border-left:14px solid #d30;
+position:fixed;
+right:-130px; bottom:100px;
+width: 150px;
+box-sizing:border-box;
+background-color: #024;} 
+ 
+#sec04>nav:hover {right: 0;} 
+ 
+#sec04 ul {list-style: none;
+padding-left: 12px; } 
+ 
+#sec04 ul a:link, #sec04 ul a:visited {
+	text-decoration:none;
+	color: #fff;}
+#sec04 ul a:hover, #sec04 ul a:active {
+	color: #ff0;} 
+
+
+  /* 5.  position:sticky; */
+#sec05 {position: sticky;
+        top:0;
+ background-color: rgba(255,255,255,0.8);
+/* 색상의 불투명도 지정 rgba(n,n,n,n) 
+   a는 0~1사이의 값 */
+ z-index: 9999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

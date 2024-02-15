@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* 1. padding의 방향별 지정 */
+#sec01>div {border: 1px solid #04d;}
+
+.pt {padding-top: 30px;}
+.pr {padding-right: 20%;
+text-align: right;}
+
+.pb {padding-bottom: 2em;}
+.pl {/* text-indent: 10%; */
+padding-left: 10%; }
+
+
+ /* 2. padding의 값 갯수별 지정 */
+#sec02>div {border: 1px solid #d04;}
+
+.pn01 {padding:50px; }
+.pn02 {padding: 50px 20%; } 
+.pn03 {padding: 50px 30% 10px;}
+.pn04 {padding:30px 30% 1em 10%;  }
+
+
+#sec03>span, #sec03>label {
+background-color: #fc5; 
+/* width: 100px; height: 30px;  */
+padding:7px 40px; }
+
+.ph01 {border: 20px solid #035;
+padding: 70px;
+margin-right: 30px;}
+
+.ph02 {border: 1px solid;
+border-radius:10px;
+padding: 20px 20px 250px;
+box-shadow: 1px 2px 10px #333;}
+
+.ph03 {border: 1px solid;
+ border-radius: 50%;
+ margin-left: 50px !important;}
+.ph03:hover {
+border-radius:0;
+transition:1s; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
